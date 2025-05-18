@@ -554,6 +554,14 @@ video {
   display: none;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -562,12 +570,32 @@ video {
   display: none;
 }
 
-.gap-\[20px\] {
-  gap: 20px;
+.w-\[\] {
+  width: ;
 }
 
-.bg-\[\] {
-  background-color: ;
+.w-\[570px\] {
+  width: 570px;
+}
+
+.w-\[571px\] {
+  width: 571px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[00px\] {
+  width: 00px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .bg-\[\#E6514A\] {
@@ -575,13 +603,36 @@ video {
   background-color: rgb(230 81 74 / var(--tw-bg-opacity, 1));
 }
 
-.text-center {
-  text-align: center;
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-\[56px\] {
+  font-size: 56px;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#3035C3\] {
+  --tw-text-opacity: 1;
+  color: rgb(48 53 195 / var(--tw-text-opacity, 1));
+}
+
+.text-\[5\+\] {
+  color: 5+;
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 768px) {
@@ -591,6 +642,18 @@ video {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:w-\[571px\] {
+    width: 571px;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:justify-between {
@@ -609,35 +672,30 @@ video {
     border-radius: 15px;
   }
 
-  .md\:p-\[20pc\] {
-    padding: 20pc;
-  }
-
   .md\:p-\[20px\] {
     padding: 20px;
-  }
-
-  .md\:p-\[9px\] {
-    padding: 9px;
-  }
-
-  .md\:p-\[px\] {
-    padding: px;
-  }
-
-  .md\:p-\[5px\] {
-    padding: 5px;
   }
 
   .md\:p-\[6px\] {
     padding: 6px;
   }
 
-  .md\:p-\[\] {
-    padding: ;
+  .md\:p-\[9px\] {
+    padding: 9px;
   }
 
-  .md\:p-\[9\] {
-    padding: 9;
+  .md\:py-\[0px\] {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:py-\[20px\] {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .md\:py-\[20gitpx\] {
+    padding-top: 20gitpx;
+    padding-bottom: 20gitpx;
   }
 }
