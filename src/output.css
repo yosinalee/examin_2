@@ -558,6 +558,19 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.bg-\[\#E6514A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 81 74 / var(--tw-bg-opacity, 1));
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -567,6 +580,49 @@ video {
   font-weight: 700;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:justify-around {
+    justify-content: space-around;
+  }
+
+  .md\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .md\:rounded-\[15px\] {
+    border-radius: 15px;
+  }
+
+  .md\:p-\[20px\] {
+    padding: 20px;
+  }
+
+  .md\:p-\[6px\] {
+    padding: 6px;
+  }
+
+  .md\:p-\[9px\] {
+    padding: 9px;
+  }
 }
