@@ -558,15 +558,86 @@ video {
   display: flex;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.hidden {
+  display: none;
 }
 
-.font-bold {
-  font-weight: 700;
+.gap-\[20px\] {
+  gap: 20px;
 }
 
-.underline {
-  text-decoration-line: underline;
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#E6514A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 81 74 / var(--tw-bg-opacity, 1));
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:justify-around {
+    justify-content: space-around;
+  }
+
+  .md\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .md\:rounded-\[15px\] {
+    border-radius: 15px;
+  }
+
+  .md\:p-\[20pc\] {
+    padding: 20pc;
+  }
+
+  .md\:p-\[20px\] {
+    padding: 20px;
+  }
+
+  .md\:p-\[9px\] {
+    padding: 9px;
+  }
+
+  .md\:p-\[px\] {
+    padding: px;
+  }
+
+  .md\:p-\[5px\] {
+    padding: 5px;
+  }
+
+  .md\:p-\[6px\] {
+    padding: 6px;
+  }
+
+  .md\:p-\[\] {
+    padding: ;
+  }
+
+  .md\:p-\[9\] {
+    padding: 9;
+  }
 }
