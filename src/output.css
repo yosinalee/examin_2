@@ -770,10 +770,13 @@ video {
   margin-left: 150px;
 }
 
+<<<<<<< HEAD
 .ml-\[1\] {
   margin-left: 1;
 }
 
+=======
+>>>>>>> bcc505e1ce5268c9be0213a2e6a28a4ce5920020
 .block {
   display: block;
 }
