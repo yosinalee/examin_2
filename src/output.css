@@ -602,6 +602,10 @@ video {
   bottom: 189px;
 }
 
+.bottom-\[390px\] {
+  bottom: 390px;
+}
+
 .z-\[10\] {
   z-index: 10;
 }
